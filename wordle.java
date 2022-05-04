@@ -3,7 +3,7 @@ public class Wordle
 {
     static Scanner input = new Scanner(System.in);
     final static String wordleoftheday = "FIRES";
-    static String[] solution = new String[] {"_", "_", "_", "_", "_"};
+    static String[] solution = new String[] {" ", " ", " ", " ", " "};
     final staticString[] ALPHABET = new String[]{A. B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z};
 
     public static void main(String[] args)
