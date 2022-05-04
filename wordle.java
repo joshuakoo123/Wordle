@@ -79,7 +79,7 @@ public class Wordle
                 {
                     userAlphabet[index] = characterLowerCase(); 
                 } else { //If the character is not in the solution
-                    userAlphabet[index] = " "; //Sets the letter in the alphabet to blank.
+                    userAlphabet[index] = " "; 
                 }
             }
         }
@@ -87,7 +87,7 @@ public class Wordle
     /*
      * Identifies the index of a letter in the alphabet, returning that index, or -1 if it was not found.
      */
-    public static int findIndexInAlphabet(String key)
+    public static int IndexAlphabet(String key)
     {
         for(int i = 0; i < ALPHABET.length; i++)
         {
@@ -126,7 +126,7 @@ public class Wordle
     /*
      * Compares the user's solution to the actual solution, returning true if they are the same, and false otherwise.
      */
-    public static boolean checkSolution()
+    public static boolean findSolution()
     {
         for(int i = 0; i < solution.length; i++)
         {
